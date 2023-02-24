@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjercicioS6_Mario_Velazco.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Ejercicio S6" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Número 1" FontSize="Title" Padding="30,10,30,10"/>
+        <Entry Text="{Binding Numero1}" Keyboard="Numeric" Placeholder="Inserte el Primer Número"></Entry>
+        <Label Text="Número 2" FontSize="Title" Padding="30,10,30,10"/>
+        <Entry Text="{Binding Numero2}" Keyboard="Numeric" Placeholder="Inserte el Segundo Número"></Entry>
+        <Button Text="Suma" Font="Large" BorderWidth="1" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"></Button>
+        <Button Text="Resta" Font="Large" BorderWidth="1" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"></Button>
+        <Button Text="Multiplicación" Font="Large" BorderWidth="1" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"></Button>
+        <Button Text="División" Font="Large" BorderWidth="1" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"></Button>
+
+    </StackLayout>
+
+</ContentPage>
